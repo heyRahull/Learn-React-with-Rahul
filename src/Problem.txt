@@ -1,0 +1,11 @@
+📝 Problem Statement :
+
+👉 Today, we will create a simple "Hello User" component in React.
+
+🔹 Step 1: Set up a new React project (or use an existing one).
+🔹 Step 2: Create a functional component called HelloUser that:
+    1. Accepts a name prop.
+    2. Displays a greeting message like "Hello, [name]!"
+🔹 Step 3: Use this component inside App.js with different names.
+🔹 Step 4: (Optional) Add a default name in case no prop is provided.
+🔹 Bonus Challenge: Use inline styles to style the message.
