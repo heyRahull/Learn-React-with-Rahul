@@ -1,11 +1,11 @@
 import React from "react";
-import UserList from "./components/UserList";
+import ThemeToggle from "./components/ThemeToggle";
 
 const App = () => {
   return (
-    <div>
-      <h1 style={{ textAlign: "center" }}>Listify</h1>
-      <UserList />
+    <div style={{ textAlign: "center" }}>
+      <h1>Theme Toggler</h1>
+      <ThemeToggle />
     </div>
   );
 };
