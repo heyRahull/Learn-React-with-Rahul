@@ -1,0 +1,24 @@
+.list-container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.list-title {
+  font-size: 24px;
+  color: #007bff;
+}
+
+.user-list {
+  list-style: none;
+  padding: 0;
+}
+
+.user-item {
+  font-size: 20px;
+  padding: 10px;
+  background: #f4f4f4;
+  margin: 10px auto;
+  width: 300px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}

@@ -1,11 +1,11 @@
 import React from "react";
-import AuthButton from "./components/AuthButton";
+import UserList from "./components/UserList";
 
 const App = () => {
   return (
-    <div style={{ textAlign: "center" }}>
-      <h1>Conditional Rendering Example</h1>
-      <AuthButton />
+    <div>
+      <h1 style={{ textAlign: "center" }}>Listify</h1>
+      <UserList />
     </div>
   );
 };
