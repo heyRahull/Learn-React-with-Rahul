@@ -1,12 +1,11 @@
 import React from "react";
-import ProfileCard from "./ProfileCard";
-import Counter from "./Counter";
+import AuthButton from "./components/AuthButton";
 
 const App = () => {
   return (
     <div style={{ textAlign: "center" }}>
-      <h1>Counter App</h1>
-      <Counter />
+      <h1>Conditional Rendering Example</h1>
+      <AuthButton />
     </div>
   );
 };
