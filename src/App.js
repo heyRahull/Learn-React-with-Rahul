@@ -1,11 +1,11 @@
 import React from "react";
-import ThemeToggle from "./components/ThemeToggle";
+import TodoApp from "./components/TodoApp";
 
 const App = () => {
   return (
     <div style={{ textAlign: "center" }}>
-      <h1>Theme Toggler</h1>
-      <ThemeToggle />
+      {/* <h1>Theme Toggler</h1> */}
+      <TodoApp />
     </div>
   );
 };
