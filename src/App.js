@@ -1,11 +1,10 @@
 import React from "react";
-import TodoApp from "./components/TodoApp";
+import UserForm from "./components/UserForm";
 
 const App = () => {
   return (
     <div style={{ textAlign: "center" }}>
-      {/* <h1>Theme Toggler</h1> */}
-      <TodoApp />
+      <UserForm />
     </div>
   );
 };
